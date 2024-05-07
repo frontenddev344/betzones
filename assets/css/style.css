@@ -117,7 +117,7 @@ h4 {
      
 }
 .nav-links ul li a.active{
-    color: var(--black);
+    color: #ead5cd;
 }
 
  .nav-links ul li a:hover {
@@ -158,7 +158,7 @@ padding-top: 70px;
 
 .banner-txt h1{
     font-size: 55px;
-    color:var(--creme);
+    color:var(--skin);
 }
 .banner-txt p{
     color: var(--white);
@@ -214,6 +214,12 @@ padding-top: 70px;
 }
 .contact-banner{
     background-image: url(../images/contact-us.jpg);
+}
+.privacy-banner{
+    background-image: url(../images/privacy-banner.jpg);
+}
+.term-banner{
+    background-image: url(../images/terms-banner.jpg);
 }
 .sub-banner::before{
     content: '';
@@ -292,6 +298,20 @@ padding-top: 70px;
     color: #000;
     font-weight: 600;
 }
+.privacy-wrap h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-pink);
+}
+.privacy-wrap{
+    margin-bottom: 20px;
+}
+.privacy-wrap ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style: disc;
+
+}
 /* sub pages css end here */
 
 /* footer section css start here */
@@ -304,7 +324,7 @@ padding-top: 70px;
 }
  
  .footer-heading h4 {
-    color: var(--black);
+    color: var(--skin);
      font-size: 35px;
 }
  .footer-links ul li a:hover{
@@ -356,14 +376,14 @@ padding-top: 70px;
      padding: 20px 20px;
      text-align: center;
      box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
-    display: none;
+    /* display: none; */
 }
  #cookies-popup p {
      margin: 0;
      color: var(--black);
 }
  #cookies-popup button {
-     background-color: var(--pink);
+     background-color: var(--dark-pink);
      color: #fff;
      border: none;
      padding: 10px 20px;
@@ -372,7 +392,7 @@ padding-top: 70px;
      border-radius: 10px;
 }
  #accept-cookies:hover {
-     background-color: var(--light-pink);
+     background-color: var(--creme);
 }
 /* cookies css end here */
 .america-wrap .america-txt .contact-btn a:hover {
