@@ -91,7 +91,7 @@ h4 {
      z-index: 99;
 }
  .site-logo img {
-     max-width: 300px;
+     max-width: 80px;
 }
  .toggle, .close {
      display: none;
@@ -329,7 +329,7 @@ padding-top: 70px;
      background-color: var(--dark-pink);
 }
  .footer-logo img {
-     max-width: 200px;
+     max-width: 100px;
 }
  
  .footer-heading h4 {

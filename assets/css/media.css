@@ -153,9 +153,7 @@
     .privacy-wrap h5 {
         font-size: 20px;
     }
-    .site-logo img {
-        max-width: 150px;
-    }
+  
     .banner-wrap {
         width: 100%;
     }
@@ -177,9 +175,7 @@
     .footer-logo {
         margin-bottom: 20px;
     }
-    .footer-logo img {
-        max-width: 170px;
-    }
+   
     .sub-banner-txt h2 {
         font-size: 30px;
     }
@@ -210,6 +206,9 @@
     .top-card-txt .read-more-btn {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .footer-links ul {
+        flex-direction: column;
     }
 }
 @media(max-width:575px){
@@ -259,10 +258,10 @@
         padding: 0 10px;
     }
     .footer-logo img {
-        max-width: 150px;
+        max-width: 80px;
     }
     .site-logo img {
-        max-width: 130px;
+        max-width: 60px;
     }
     .nav-links {
         width: 100%;
