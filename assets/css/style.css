@@ -10,7 +10,6 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     /* transition: all 0.3s linear; */
 }
  body{
      margin: 0;
@@ -75,14 +74,14 @@ h4 {
      z-index: 999;
 
 }
- .fixed-header{
+ /* .fixed-header{
      position: fixed;
      top: 0;
      width: 100%;
      z-index: 999;
      transition: all 0.5s linear;
 
-}
+} */
  .social-icon ul li a:hover{
      color: #ef143f;
 }
@@ -131,7 +130,7 @@ h4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 450px;
+    height: 95vh;
     position: relative;
 }
 .site-banner::after{
@@ -188,9 +187,13 @@ padding-top: 70px;
 
 }
 .topcontent-picture img {
-    height: 550px;
+    height: 500px;
     object-fit: cover;
 }
+.top-card-txt .read-more-btn {
+    margin-top: 30px;
+}
+
 /* topcard section css end here */
 /* sub pages css start here */
 .sub-banner{
@@ -312,6 +315,12 @@ padding-top: 70px;
     list-style: disc;
 
 }
+.top-wrap{
+    margin: 50px 0;
+}
+.read-more-btn {
+    margin-top: 20px;
+}
 /* sub pages css end here */
 
 /* footer section css start here */
@@ -347,23 +356,47 @@ padding-top: 70px;
     align-items: center;
     gap: 10px;
     padding: 20px 0;
+    justify-content: center;
 }
 .social-links ul li a i{
     color: var(--white);
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     margin: 0 5px;
     border: 1px solid;
     border-radius: 30px;
     text-align: center;
     line-height: 32px;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
 }
 .social-links ul li a i:hover {
     transform: translateY(-10px);
     color: var(--black);
 }
 
+.footer-wrap {
+    text-align: center;
+}
+.copy-right p {
+    color: #fff;
+}
+.copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+}
 /* footer section css end here */
 /* cookies css star here */
  #cookies-popup {
