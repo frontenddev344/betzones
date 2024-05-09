@@ -125,7 +125,7 @@ h4 {
 /* header css end here */
 /* banner section css start here */
 .site-banner{
-    background-image: url(../images/homebanner.jpg);
+    background-image: url(../images/heroBanner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -206,11 +206,12 @@ padding-top: 70px;
     position: relative;
 }
 .unique-banenr {
-    background-image: url(../images/Unique-Hotel-banner.webp);
+    background-image: url(../images/Unique-Hotel-banner.png);
     background-position: calc(10%);
 }
 .casino-banner{
     background-image: url(../images/casino-banner.jpg);
+    
 }
 .affordable-banner{
     background-image: url(../images/affordable-banner.jpg);

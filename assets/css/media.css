@@ -210,6 +210,9 @@
     .footer-links ul {
         flex-direction: column;
     }
+    .unique-banenr {
+        background-position: calc(44%);
+    }
 }
 @media(max-width:575px){
    
