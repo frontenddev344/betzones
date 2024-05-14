@@ -153,6 +153,7 @@ h4 {
 position: relative;
 z-index: 9;
 padding-top: 70px;
+margin: 0 auto;
 }
 
 .banner-txt h1{
