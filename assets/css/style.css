@@ -98,7 +98,7 @@ h4 {
 }
  .nav-links ul {
      display: flex;
-     gap: 50px;
+     gap: 30px;
      align-items: center;
 }
  .site-header nav {
